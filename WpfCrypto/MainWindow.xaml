@@ -1,0 +1,14 @@
+﻿<Window x:Class="WpfCrypto.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfCrypto"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid x:Name="GridIndex" Margin="10,0,0,-16">
+        <Frame x:Name="Main" NavigationUIVisibility="Hidden" Margin="0,64,10,30" />
+        <Button Content="Accont" Width="86" BorderBrush="#FF0041FF" Background="#FF0041FF" Foreground="White" Margin="0,0,36,391" HorizontalAlignment="Right" VerticalAlignment="Bottom" Height="28" Click="Button_Click"/>
+        <Button Content="Home" Width="86" BorderBrush="#FF0041FF" Background="#FF0041FF" Foreground="White" Margin="0,0,674,391" HorizontalAlignment="Right" VerticalAlignment="Bottom" Height="28" Click="HomeClick"/>
+    </Grid>
+</Window>
